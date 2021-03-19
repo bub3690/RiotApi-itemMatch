@@ -6,7 +6,7 @@ Give item-tree information of your lol Champion when laning phase for every enem
 
 기존 OP.GG에서는 라인전 상대에 따른 챔피언 아이템 트리를 제공하지 않는다.
 RIOT API를 이용해서, 챔피언 상대별 아이템 트리를 제공하여, 웹페이지 운영이 최종목표이다.
-
+https://www.notion.so/Opponents-lol-b16f8bc8ba6446e8913c699f71e36046
 ```
 
 ### 1. 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
