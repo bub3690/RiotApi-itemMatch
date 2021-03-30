@@ -15,7 +15,7 @@ with open('C:/Project/py/resource/getSummonerName.txt','r') as f: # accountID ë°
         except KeyError:
             print('no summoner info!')
             continue
-        print('get Succeed!')
+        
         accountIDs.append(accountID+'\n')
 
 with open('C:/Project/py/resource/getAccountId.txt','w') as f:
