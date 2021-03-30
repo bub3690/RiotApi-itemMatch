@@ -17,6 +17,6 @@ for page in range(1,2000): # summoner 정보 2000페이지까지 돌리기
     for items in summoner_data:
         total_summoner.append(items['summonerName']+'\n') # 공백으로 구분해서 받음
 
-with open('C:/Project/py/resource/getSummonerName.txt','w') as f:
+with open('./resource/getSummonerName.txt','w') as f:
     f.writelines(total_summoner)
 
