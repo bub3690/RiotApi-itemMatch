@@ -45,12 +45,12 @@ class  RiotApi:
                             RiotApi.query+self._apikey).json()
         return summoner_data["accountId"]
     
-    def get_league(self,page):
+    def get_league(self,page='1'):
         #페이지만 입력해주면 작동한다.
         return requests.get(RiotApi.url+
                             RiotApi.url_league_exp_v4+
                             page+
-                            RiotApi.query2+self._apikey)
+                            RiotApi.query2+self._apikey).json()
     
     def get_gameid_byAccountid(self,account_id):
         #return [game_id]
@@ -75,11 +75,11 @@ class  RiotApi:
 if __name__ == '__main__':
     #단위테스트
     test = RiotApi(apikey="")
-    user_accountId=test.get_summoner('종버버버')
+    user_accountId=test.get_summoner('종버버버') # test id
     games_ids=test.get_gameid_byAccountid(user_accountId)
     
     
     #games_data
     
-games_ids
+# games_ids
 
