@@ -13,13 +13,13 @@ print(sys.path[0])
 count=0 # rate limit excceed 방지 위한 카운트
 accountIDs = []
 with open(os.path.join(sys.path[0],'./resource/getSummonerName.txt'),'r', encoding='utf8') as f: # accountID 받아서 accountIDs에 저장
-    riotApi1=RiotApi('RGAPI-1e589003-f5ad-4e73-a252-85bbe3ba8871') #내 riotapi key 넣기
+    riotApi1=RiotApi(apikey1) #내 riotapi key 넣기
     summoner=None #한줄씩 받기 위한 변수
     while summoner!='': # 파일의 내용이 비기 전까지
         count=count+1 # count값 증가-
-        if count%99==0 and count>=99: # 2분안에 100개 api 보내기 방지
+        
+        if count%98==0 and count>=98: # 2분안에 100개 api 보내기 방지
             #정확히 2분 아니라서 넉넉하게 잡아줘야함
-            
             print("Time to sleep about 130s..")
             time.sleep(130)  
             
