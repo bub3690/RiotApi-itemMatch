@@ -4,7 +4,7 @@ from opponentsLOL import RiotApi
 import os, sys
 
 
-riotApi1=RiotApi('RGAPI-2c57b69e-3636-433d-bbd5-bdb5a3bdd474') #내 riotapi key 넣기
+riotApi1=RiotApi('RGAPI-1e589003-f5ad-4e73-a252-85bbe3ba8871') #내 riotapi key 넣기
 
 #403 error : riot api 오류
 total_summoner = []

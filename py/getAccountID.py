@@ -13,7 +13,7 @@ print(sys.path[0])
 count=0 # rate limit excceed 방지 위한 카운트
 accountIDs = []
 with open(os.path.join(sys.path[0],'./resource/getSummonerName.txt'),'r', encoding='utf8') as f: # accountID 받아서 accountIDs에 저장
-    riotApi1=RiotApi('RGAPI-9a61a954-fbfc-41be-9629-b2215739efc9') #내 riotapi key 넣기
+    riotApi1=RiotApi('RGAPI-1e589003-f5ad-4e73-a252-85bbe3ba8871') #내 riotapi key 넣기
     for line in f:
         count=count+1 # count값 증가-
         if count%100==0 and count>=100: # 2분안에 100개 api 보내기 방지
