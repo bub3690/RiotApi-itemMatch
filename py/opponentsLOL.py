@@ -43,7 +43,18 @@ class  RiotApi:
                             RiotApi.url_summoner_v4+
                             summoner_name+
                             RiotApi.query+self._apikey).json()
-        return summoner_data["accountId"]
+        
+        return summoner_data['accountId']
+
+    def get_summoner_raw(self,summoner_name):
+            #return account_id
+        #소환사 이름만 입력해주면 작동한다.
+        summoner_data=requests.get(RiotApi.url+
+                        RiotApi.url_summoner_v4+
+                        summoner_name+
+                        RiotApi.query+self._apikey).json()
+        
+        return summoner_data
     
     def get_league(self,page='1'):
         #페이지만 입력해주면 작동한다.
