@@ -1,0 +1,10 @@
+"frame": [
+  {
+    "events" : [
+      "type": TARGET
+      "participantId": TARGET
+      if(type=="ITEM_PURCHASED"):
+	"itemId": TARGET in Pool(최종 아이템, 신발 분리, 3363, 3364, 3340 -> 장신구)
+      else if(type=="SKILL_LEVEL_UP"):
+      	"skillSlot": Target in Pool(1:q, 2:w, 3:e, 4:r)
+    ]
