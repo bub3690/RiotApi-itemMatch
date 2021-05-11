@@ -19,6 +19,10 @@ zZeus
 SPG Bible
 xintai bang bang
 Liiv Pump
+<<<<<<< HEAD
+=======
+wanfeng
+>>>>>>> upstream/main
 ZILZ
 2OOO 10 24
 ë¯¸ë¶ì´
@@ -31,6 +35,7 @@ La Casa de PapeI
 Witch
 HLE Deft1
 CCrazy
+<<<<<<< HEAD
 ê³µê¸°ê·¸ìì²´
 ì§€ë¯¸321
 Wilder ì•„ë°ì‚°ì•¼
@@ -38,6 +43,15 @@ zqbvbadwqe
 HLE Cheoni
 ìª¼ë ™ì´ë‹¤ë§ë¡œí•˜ì
 ì—¬ ê¸¸ ë–  ë‚˜
+=======
+°ø±â±×ÀÚÃ¼
+Áö¹Ì321
+Wilder ¾Æµ¥»ê¾ß
+zqbvbadwqe
+HLE Cheoni
+ÂÉ·¾ÀÌ´Ù¸»·ÎÇÏÀÚ
+¿© ±æ ¶° ³ª
+>>>>>>> upstream/main
 swnsww
 Sangchu
 Mitsuki
@@ -52,7 +66,10 @@ nhocmoinhu
 ì „ë¯¼í˜
 í˜‘ê³¡ì˜ ì§€ë‹¨
 FA BBakPyo
+<<<<<<< HEAD
 3ë°ìŠ¤ì˜ ë²•ì¹™
+=======
+>>>>>>> upstream/main
 lemonnnn
 ë–¡ì€ì—­ì‹œë°€ë–¡
 ì§€ë„ë¥¼ëª¨ìœ¼ëŠ”ì†Œë…€
@@ -68,6 +85,7 @@ Fox B Cookie
 L1Lac3
 Seonbi
 AF BuLLDoG
+<<<<<<< HEAD
 ê¸¸í˜¸íƒœ
 ì‰ìš©ì¤€1
 ìµœê¸°ëª…
@@ -80,21 +98,46 @@ af buIIdog
 eiorrrr
 ë°”ìœ„ê²Œë„ìš°ë¯¸ì—ìš”
 í–‰ë³µì„ ì°¾ëŠ” ì•„ì´
+=======
+±æÈ£ÅÂ
+À×¿ëÁØ1
+ÃÖ±â¸í
+Ç×»ó Æò¿ÂÇÏ°Ô
+º´½Ã¿ì
+¾Æ´ÂÃ´ÇÏÁö¸»¶ó°í
+An Everglow
+N0BIE
+af buIIdog
+3µ¥½ºÀÇ ¹ıÄ¢
+À²¹«Â÷¸À»çÅÁ
+eiorrrr
+¹ÙÀ§°Ôµµ¿ì¹Ì¿¡¿ä
+Çàº¹À» Ã£´Â ¾ÆÀÌ
+>>>>>>> upstream/main
 xiao cao bao
 ì§œì§„ì˜¤ì•„
 í• ì¸ê°€
 Shadow Yu
 SUPER MlD
 T1 Zeus
+<<<<<<< HEAD
 í•­ìƒ í‰ì˜¨í•˜ê²Œ
+=======
+ÇÑÄî¾î¾î·Á¾î¿©
+>>>>>>> upstream/main
 lovehinorei
 ë¼ ì½”
 heeseong
 wj1212
+»óÇõÀÌÀÇ Àå³­°¨
 WDGAFF
 ëˆê°€ìŠ¤3
 tesq740565123
 akinin
+<<<<<<< HEAD
+=======
+SUPER MlD
+>>>>>>> upstream/main
 apoIosIus
 Gen G Envy
 ì˜¤ í¬íƒœì‹ì´
@@ -107,7 +150,11 @@ ggttlplc031
 ì „ë¶€ë‹¤ì‹œë§Œë“¤ë‹¤
 ldgwxfjddy
 Gen G Dice
+<<<<<<< HEAD
 ìˆ˜ì§€ëˆ„ë‚˜ ê·€ì—½ë‹¤
+=======
+¼öÁö´©³ª ±Í¿±´Ù
+>>>>>>> upstream/main
 What U Payin 4
 Yeosong7
 Smallë¬¸ì–´
@@ -116,26 +163,51 @@ IG Q1749193239
 Shadow2013
 EDGY Swamp
 Solokill77
+<<<<<<< HEAD
 í•œì•„ê°¸
 ë‹ˆìƒê°ì¤‘ì´ì•¼
 ê³ ìŠ´ë„ì¹˜ê°€ ë˜ë‹¤
+=======
+Resolve
+ÇÑ¾Æ°¼
+´Ï»ı°¢ÁßÀÌ¾ß
+°í½¿µµÄ¡°¡ µÇ´Ù
+>>>>>>> upstream/main
 no chat fighting
 ìŒë‘¥ì´ê·¸ë¦¼ìëª¨í—˜
 í•œë²ˆì£½ì•Š
 PhasedKiller
+<<<<<<< HEAD
 ë‹¿ê³ ì‹¶ì–´ ëˆ ë²Œì–´
 ì§„ì§€í•œì›ë”œì•„ì§€ë¥´
 05 shen
+=======
+´ê°í½Í¾î µ· ¹ú¾î
+ÁøÁöÇÑ¿øµô¾ÆÁö¸£
+ºÒµ¶ÁÁ¾Æ
+05 shen
+ldgwxfjddy
+Zdz1
+>>>>>>> upstream/main
 zjr0
 wo shi owo
 98kll
 KUAM
 I dont deserve
+<<<<<<< HEAD
 ê²€ì€ë¨¸ë¦¬ì‚¬ë‚˜ì´
 ì‡¼ë©”ì´ì»¤íëŒë ¤
+=======
+°ËÀº¸Ó¸®»ç³ªÀÌ
+¼î¸ŞÀÌÄ¿Å¥µ¹·Á
+>>>>>>> upstream/main
 chushizhang
+Gen G ToongE
 Shadow snail
+<<<<<<< HEAD
 mllky way
+=======
+>>>>>>> upstream/main
 wangwangwang1
 ACL PioNeeR
 arrowIoI
@@ -146,9 +218,14 @@ wind1
 ì¿ ìë‹ˆìë‹ˆ
 í™©í˜¼ ìš°ì£¼ ìì•¼
 1xn
+<<<<<<< HEAD
 ì‹ ìŠ¹ìˆ˜
 ë°”ë³´ìƒë‹¨
 ì¬í›ˆì´ì˜ ëª¨í•¨
+=======
+¹Ùº¸»ó´Ü
+ÀçÈÆÀÌÀÇ ¸ğÇÔ
+>>>>>>> upstream/main
 impupupu
 vixxx
 í˜„ì‹¤ì•ì—ë¬´ë¦ê¿‡ì–´
@@ -158,6 +235,7 @@ OMGqingxunzhaoR
 Liiv Dooti
 ox year happy
 lin shu hao
+<<<<<<< HEAD
 masdasfrt
 Medication
 ë¶ˆë…ì¢‹ì•„
@@ -166,17 +244,40 @@ UijU
 ì–´ì œë³´ë‹¤ ê°•í•˜ê²Œ
 Gen G ToongE
 Zdz1
+=======
+Medication
+Fa   hai
+APÁ¤±ÛÇÏ¸é ¿ä³×
+ulolu
+UijU
+¾îÁ¦º¸´Ù °­ÇÏ°Ô
+wo shi owo
+Á»¿ÀÁö¸¶¾Æ¾Æ¾Æ¾Æ
+>>>>>>> upstream/main
 Gen G Khael
 98krwhf
+<<<<<<< HEAD
 LunaLina
 ì–¸ë‹ˆìš°ê¸°
+=======
+Calm niu
+wind1
+¾ğ´Ï¿ì±â
+>>>>>>> upstream/main
 KT VicLa
 ì‰ì–´í‚¹4ì„¸
 7aNa
 rua hi
+<<<<<<< HEAD
 ë„ë„›ì´ˆì½œë¦¿
 íŠ¸ìœ„ì¹˜ ë¼ì¿¤99
 ì •í ì´
+=======
+µµ³ÓÃÊÄİ¸´
+Æ®À§Ä¡ ¶óÄï99
+Artifact 0
+Á¤ÈìÀÌ
+>>>>>>> upstream/main
 YeGodz
 Fa   hai
 Hide on bush
@@ -186,9 +287,15 @@ geiwohongxiexie
 DRX BAO
 APì •ê¸€í•˜ë©´ ìš”ë„¤
 All day long you
+<<<<<<< HEAD
 ì•ˆë…•ë‚˜ëŠ”ì•¼í‰í‰ì´
 ì¢€ì˜¤ì§€ë§ˆì•„ì•„ì•„ì•„
 ì†¡í”Œë­í¬
+=======
+¾È³ç³ª´Â¾ßÅüÅüÀÌ
+mobanche
+¼ÛÇÃ·©Å©
+>>>>>>> upstream/main
 XiaoYESKK
 sdawxl
 Youxin3
@@ -197,12 +304,21 @@ DFM GAENG
 ê´‘íŒ”í–„
 ì œë‹ˆí¼ë¡œí˜ì¦ˆë‹¤
 Douyu SanJie
+<<<<<<< HEAD
 ì†Œì¤‘í•¨ì„ìŠì€ì‚¬ëŒ
 ë³µìŠ¬ë³µìŠ¬ê²¨ë“œë‘ì´
 i hate coward
 Wafahaka
 ì „ì§€ì ì„±ì£¼ì‹œì 
 Artifact 0
+=======
+À×¾îÅ·4¼¼
+LunaLina
+¼ÒÁßÇÔÀ»ÀØÀº»ç¶÷
+º¹½½º¹½½°Üµå¶ûÀÌ
+i hate coward
+ÀüÁöÀû¼ºÁÖ½ÃÁ¡
+>>>>>>> upstream/main
 After Journey
 ì˜¤ëŠ˜ë„ ê³ ìƒí–ˆì–´1
 í¬ë¦¼ëª¬
@@ -211,13 +327,18 @@ After Journey
 ggggjjjjj
 Dian321
 Gen G JJANG
+<<<<<<< HEAD
 SWHzzz
+=======
+Á¤½Édtwd
+>>>>>>> upstream/main
 LoveAsuna Foever
 Demon
 ë¶ˆë§ŒìˆìŒë‹¤í‘œì¶œí•´
 í‰ë²”í•œ ìˆŸê°€ë½
 ê¸°ì–µì„ ì°¾ëŠ” ì†Œë…€
 BRO Jin0
+<<<<<<< HEAD
 mobanche
 ì•„ë¬´ë§ì—†ì´ê²œí•¨
 ëˆ„ê°€ì´ê¸°ë‚˜í•´ë³´ì
@@ -237,18 +358,51 @@ Gdlovestory
 ì±„íŒ…ì•ˆì¨ìš”
 last qqkoko 2021
 êµì˜ë„
+=======
+¾Æ¹«¸»¾øÀÌ°×ÇÔ
+´©°¡ÀÌ±â³ªÇØº¸ÀÚ
+Lpc3
+T1 Keria
+¸¶µ¿¼®°ú ÆÈ¾¾¸§
+Eateew
+¾ÆÇÁ¸®Ä«TV ¹Ì±Ã
+´Ï ÄÚ ´Ï ÄŞ
+asddasadsasd
+Wafahaka
+Ææ´Ï¸£
+Çà¿îÀÇ ¿©½Å½Å
+98 Haru
+´Ù¼¸ °³ÀÇ °¡¸é
+Gdlovestory
+Ã¤ÆÃ¾È½á¿ä
+last qqkoko 2021
+±³Àßµµ
+>>>>>>> upstream/main
 1236549863465456
 BUXI
+<<<<<<< HEAD
 huntiandi1
 ì •ì‹¬dtwd
 ìš° ì œ
 ACL Gyosoo
+=======
+SWHzzz
+¿ì Á¦
+ACL Gyosoo
+¸ÛºØÀÌ
+>>>>>>> upstream/main
 FA Trap
 wu ming zhl zu
 Give a name
+<<<<<<< HEAD
 ì–¼ë§ˆë“ ì§€ ì§–ì–´ë¼
 í•˜ì¸ì¦ˆ
 ê·¸ë¦¬ìš´ ê¹€ìŠ¹í˜¸
+=======
+¾ó¸¶µçÁö Â¢¾î¶ó
+ÇÏÀÎÁî
+T1 F0rest
+>>>>>>> upstream/main
 Seo1i
 ì•„í”„ë¦¬ì¹´TV ë¯¸ê¶
 ADC06TJ
@@ -260,6 +414,10 @@ zbl
 ìˆŸê°€ë½ ì¸ê¶Œ íƒ„ì••
 lovestrucker
 whisper snow
+<<<<<<< HEAD
+=======
+Yukinee
+>>>>>>> upstream/main
 Hiro02
 rdtrd
 Sevy
@@ -269,12 +427,21 @@ Fox B Mg
 ì–¼ìŒì˜í˜¸í¡ì œ10í˜•
 íƒ‘ í˜œì§€
 BRO Jeong Hoon
+<<<<<<< HEAD
 ì–´ì˜ì—…ë‚´ ì§„ìŸˆ
 qwertasdfgzxcvb1
 okggg
 1veL Ackerman
 Sup Ripper
 ì­Œ ë² 
+=======
+¾îÀÇ¾÷³» ÁøÀğ
+okggg
+huntiandi1
+1veL Ackerman
+Sup Ripper
+Âà º£
+>>>>>>> upstream/main
 zqweszodjsa
 dao mei dan
 ê¹¨ë‹¬ìŒì„ì–»ì€ë‚¨ì
@@ -284,6 +451,7 @@ dao mei dan
 PMD91
 Naehyun
 Two Tlme
+<<<<<<< HEAD
 ê°ì˜¤í•˜ê³  ë¤ë²¼ë¼
 Iknu
 ì´ˆë³´ê°•ì•„ì§€
@@ -297,19 +465,40 @@ Last  Summer7
 ì‚¼ë…„ë˜ì‚¼ë…„
 Kingen
 EMENES
+=======
+ÃÊº¸°­¾ÆÁö
+Ä«ÀÌÆÃ
+ÇÑ¿©¸§¹ã¿¡ ²Ü
+Åë¸ğÂ¥°¨ÀÚÇÖµµ±×
+bilinico°úÀÏ
+Á¡½ÉÀú³á¾ß½Ä
+ADC06TJ
+±×¸®¿î ±è½ÂÈ£
+´©±¸¼¼¿ä3
+Àº°á½Ü
+»ï³â¶Ç»ï³â
+Kingen
+EMENES
+µµÇÁ½º
+>>>>>>> upstream/main
 lilillo
 ë¬¸ìµì í›„ì†ë¬¸ê±´í¬
 í™ìŠ¹ì¬ì˜ ìº í•‘ì¹´
 ìŠ¤ì»¤ì§€ ë°œì‚¬
 ê¸¸ ë„ ê°–ì¶œ êµ¬
 rzdryydsrz
+<<<<<<< HEAD
 ì¸ìƒì´ë„ˆë¬´ì§€ì³ìš”
+=======
+ÀÎ»ıÀÌ³Ê¹«ÁöÃÄ¿ä
+>>>>>>> upstream/main
 Unisia
 haoye
 Hubpak
 L1sure
 Gen G nyx
 Do u know cvmax
+<<<<<<< HEAD
 ì ± ê¸€
 í˜€ê¸°ë””
 xinren
@@ -335,6 +524,31 @@ DWG Jool
 í•ë¹› ê³„ì•½
 ê¸ì •ì ì¸ì—ë„ˆì§€
 ì›Œì‹±ì¹­ë”°ì˜¤777
+=======
+Á­ ±Û
+Çô±âµğ
+xinren
+°¢¿ÀÇÏ°í ´ıº­¶ó
+ÃÊ¹Ù ¸ğÀÚ
+²á¾Æ°¡
+zlszz
+caIl on me
+Fanch
+ºĞ³ë Çß´Ù1
+¶×µñÀÌ
+¼­¼º°Å¸®´Â°³
+Last  Summer7
+Denis02
+qpoejtypqoejy
+³­ÇÁÁø¸Ô2
+FIORAKlNG
+Àú Á» Ä¨´Ï´Ù ¿ä
+±âÁØ½ÅÁ¤
+Á¦ÁÖ»ç´ÂÄ¡¸ÅÃ»³â
+ÇÍºû °è¾à
+±àÁ¤ÀûÀÎ¿¡³ÊÁö
+d1ngxianghua
+>>>>>>> upstream/main
 Gen G Resilience
 d1ngxianghua
 wyzpsjsbdfqqnl
@@ -360,12 +574,22 @@ therapy1
 ì¸ìƒ ì¦ê²¨ìš”
 ì¢…í•™e
 akfrjfwlakdy
+<<<<<<< HEAD
+=======
+i wish z
+2003 05 16
+>>>>>>> upstream/main
 StephanFelix2
 Amazing level
+<<<<<<< HEAD
 holy tw
+=======
+>>>>>>> upstream/main
 shi ren jie ku
+TianGanB
 FA BaeKHo
 bietaiyayii
+lolouolol
 xiaozhabiovo
 flnd myself
 banyebanyebanye
@@ -386,9 +610,16 @@ W2dowmaker
 íŒŒí’€ëŸ¬
 ì°¸í¬ë„ë‚˜ë¬´
 Ten10
+<<<<<<< HEAD
 íŠ¹ìˆ˜êµìœ¡ ì „ê³µ
 AXZ Lago
 ë¹„ê°€ ì˜¤ê³  ë‚˜ë©´
+=======
+Æ¯¼ö±³À° Àü°ø
+03·£´ı´ÙÀÌ½º
+AXZ Lago
+IG xingluo
+>>>>>>> upstream/main
 FSDLKMP
 tnedifnoc syawla
 qingwohenaicha
@@ -396,7 +627,11 @@ i wish z
 Saturday Mornlng
 ewsake
 Lucile
+<<<<<<< HEAD
 2003 05 16
+=======
+Tangwagege
+>>>>>>> upstream/main
 asdasdasd11
 2000 02 09
 Laokoon
@@ -407,6 +642,7 @@ EDG Deft íŒ¬
 íƒœê¸°ë² ì–´
 ë¶ˆë©¸ì˜ë¬´ë¹™
 xize999
+<<<<<<< HEAD
 ê¼¬ë§ˆë“¤ì˜ ì”ì¹˜
 guilty p1easure
 lolouolol
@@ -438,9 +674,43 @@ oozu
 asdashgawas
 minì•Šì•„
 ì‰”ë“œë°±
+=======
+¾Ø Áã
+holy tw
+INININNOchat
+²¿¸¶µéÀÇ ÀÜÄ¡
+ÀÏ Æí
+Á¶±¤Èñ1
+¾î¸° ¹Ùº¸ 
+Æû ÆÎ
+¿äÇÃ·¡
+zsdqdasdascxz
+¿ªÄ³¸® KING
+ºü¸¥ ¾²·¹±â
+Zaovvunongren
+LaP1s 
+¿Õ¿Õº°
+»óÇöÀÇ 4 ¹ß´ÛÀÌ
+Å³·¯Åé
+DWG Nuclear
+¼ö¿µÀåÆÄÆ¼±èÁ¤±Ù
+°øÁÖ Å³Áà ¾î½ÃÁà
+ºñ°¡ ¿À°í ³ª¸é
+ewsake
+ÀÌ½º±Â
+ÂüÀÌ½½ ¸¶½ê
+ÃÊ°¡½ºÃæÀÌ
+½Ã°£ÀÇ ½£
+¹Î Ä«
+2000 02 09
+asdashgawas
+min¾Ê¾Æ
+½¨µå¹é
+>>>>>>> upstream/main
 Wzggs
 ì´ë„ë¥˜
 Like irelia
+<<<<<<< HEAD
 ì•¤ ì¥
 dethuong6
 Declare
@@ -449,28 +719,59 @@ zodls
 C dog bnnS 2nnd
 INININNOchat
 Sup Teacher
+=======
+tnedifnoc syawla
+dethuong6
+Declare
+zodls
+¹ÙÅÒ±ÇÀ§ÀÚ
+C dog bnnS 2nnd
+ÆÇ¼ö°×
+Sup Teacher
+guilty p1easure
+>>>>>>> upstream/main
 nmdghkrcnasdasd
 ë½€ì‚ ì •ê¸€ ì›ì±”
 í¬ë ˆì´ì§€ìº£66
 ì„œí¬í„°ì´ˆì•„
 ì•”í‘ì˜ê¸°ì‚¬ê¹€ì„±íƒœ
 PCS SUP
+<<<<<<< HEAD
 ì²´ë¦¬ì œê³¼
+=======
+Ã¼¸®Á¦°ú
+>>>>>>> upstream/main
 R0xy Migurdia
 lose mid
 ë§ˆìŒì„ì“°ë‹¤100
 Pullbae
+<<<<<<< HEAD
 DWG Nuclear
 ì—­ì‹œí­êµ°
 ë¯¼ì •ì•„ ì í™”ê±¸ì–´
 ë‹¤ì •í•œê²Œ ì „ë¶€
 anxious honeybee
 Luyt
+=======
+¿ª½ÃÆø±º
+ÀÚ½Å°¨°¡Á®¶ó
+¹ÎÁ¤¾Æ Á¡È­°É¾î
+´ÙÁ¤ÇÑ°Ô ÀüºÎ
+anxious honeybee
+Luyt
+qrxb
+>>>>>>> upstream/main
 171cm48kg
 FA Moo
 KAYNKlNG
 ge shuai ma 
+<<<<<<< HEAD
 ë™ëƒ¥ì•„ì¹˜
+=======
+µ¿³É¾ÆÄ¡
+nsmarin
+oozu
+>>>>>>> upstream/main
 gasagao
 anxious zz
 HyoJun2
@@ -479,8 +780,13 @@ T1 Asper
 D1 PIG KILLER
 ê³ ë•ê³ ë•ì§„ê³°íƒ•
 pikachu1234
+<<<<<<< HEAD
 ì •ì ì˜ ìˆœê°„
+=======
+Á¤Á¡ÀÇ ¼ø°£
+>>>>>>> upstream/main
 lingring
+Shadow Ming9
 dbpqlIIlmnnm
 bbaacwas
 íŒìˆ˜ê²œ
@@ -501,13 +807,16 @@ S0SIN
 Jiangu0qiang
 í• ê²Œì—†ë‹¤ì§„ì§œ
 Holic Jayce
+<<<<<<< HEAD
 ì–¸ì œë‚˜ëª»í•˜ëŠ”ì‚¬ëŒ
+=======
+¾ğÁ¦³ª¸øÇÏ´Â»ç¶÷
+>>>>>>> upstream/main
 MIDMINE
 ìì‹ ê°ê°€ì ¸ë¼
 Kim Darius
 keaiyaya
 Kamen Rider fazi
-qrxb
 Rahel
 aaaasaaaaa
 Skinny Brown7
@@ -515,12 +824,18 @@ Shaco JG
 ì‚¼ë´‰êµ­ë°¥
 ë¨€ ë°
 happy ganne2
+BRO T S
 04 Changer
 ì˜¤ë³µì•„ ì˜¤ë³µì•„
 Riris1
 xiari de weifeng
+<<<<<<< HEAD
 êµ¬ìš´ ì˜¤ë¦¬ ë°¥
 ì•ˆ í—Œ
+=======
+±¸¿î ¿À¸® ¹ä
+¾È Çå
+>>>>>>> upstream/main
 a new beginnlng
 lmhzsbym
 Alsong
@@ -531,9 +846,15 @@ From confidence
 W1th one
 ì • ë¯¼ ì™• ì
 no happy day
+Condensed
 w1ong
+<<<<<<< HEAD
 ê°œë¨¸ë¦¬ ì–‘ì´ˆ
 ì•„ë‹ˆë„ëŒ€ì²´ì´ê±¸ì™œ
+=======
+°³¸Ó¸® ¾çÃÊ
+¾Æ´Ïµµ´ëÃ¼ÀÌ°É¿Ö
+>>>>>>> upstream/main
 ekanS
 hewon
 BJì„œì¤€ì„ì‚¬ìƒíŒ¬
@@ -547,6 +868,7 @@ weather i
 springs2
 anyelieshou1
 QvvvwvvvQ
+<<<<<<< HEAD
 ë° êµ¼
 ê¾¸ë½ì§€
 ìš°ë¦¬í˜•í´í…œ
@@ -555,6 +877,18 @@ kur0m1
 FA ì•„ì³
 Fiora
 ê½ƒí”¼ëŠ” ìš©ê¸°
+=======
+¹Ö ±À
+²Ù¶ôÁö
+¿¹ÀÎÀÌ ±Í¿©¿ö
+Å¸ ÀÜ
+¿ì¸®ÇüÅ¬ÅÛ
+¹Î±Û·¯
+FA ¾ÆÃÄ
+Fiora
+²ÉÇÇ´Â ¿ë±â
+kur0m1
+>>>>>>> upstream/main
 ANG TV
 Shi bie san ri
 í”¼ì¹´ì¸„ëˆê¼¬ì¸„
@@ -565,19 +899,34 @@ BRO Chieftain
 í‘¸ ì–Œ
 TOP GEP
 River96
+<<<<<<< HEAD
 Xin chao Cam on
 ì—„ë§ˆì§„2
 ì„±ì¥ë°©í•´í•˜ì§€ë§ˆìš”
 2021 ì§€í—Œ
 Condensed
 ì½©ì•Œíƒ„ì½©ì½©
+=======
+¾ö¸¶Áø2
+¼ºÀå¹æÇØÇÏÁö¸¶¿ä
+ÃÖÀÏ¼ö
+2021 ÁöÇå
+Äá¾ËÅºÄáÄá
+>>>>>>> upstream/main
 Ent is angry
 yangwang
 ê¸°ë¶„ì¡°ì•„ í•œ ì”
 Sama
+<<<<<<< HEAD
 ì„¤ë ‰ì…˜ ì‚¬ì£¼ì„¸ìš” 
 ë² ì§±ì¢‹ì€ê°œë¯¸
 ì  ì¥ë§í–ˆë‹¤
+=======
+¼³·º¼Ç »çÁÖ¼¼¿ä 
+º£Â¯ÁÁÀº°³¹Ì
+¼ö´ŞÀÌ´Ï°õµ¹ÀÌ´Ï
+Á¨Àå¸ÁÇß´Ù
+>>>>>>> upstream/main
 Chang Min 
 OHwiN
 ì´ˆë“±ëŒ€í‘œ1
@@ -595,6 +944,13 @@ CrazzyKat
 ì£½ì–´ì´ì„œí¿ë…„ì•„
 woshishaozi
 18072001
+<<<<<<< HEAD
+=======
+²¿Áı¾î
+¹æÁ¾ÇÏ´Ù
+¸ù Ä¿
+°¨ÀÚÆ¢±è¸Ô±â
+>>>>>>> upstream/main
 Always Modesty
 ê¼¬ì§‘ì–´
 ë°©ì¢…í•˜ë‹¤
@@ -634,14 +990,26 @@ EDGaming
 ì •ì¬ë§Œ
 IBZ
 GEN Life10
+<<<<<<< HEAD
 ì–´ì¨Œë“  ì•„ë¬´íŠ¼
 ìˆ˜ë‹¬ì´ë‹ˆê³°ëŒì´ë‹ˆ
+=======
+Savage
+>>>>>>> upstream/main
 jiajun jg
 Ginon
 Blooming Lily
 18lv ebi
+<<<<<<< HEAD
 ê°€ì˜¤ë¥¼ ì¡ë‹¤
 ì˜¥ìˆ˜ìˆ˜0
+=======
+lilllililill
+°¡¿À¸¦ Àâ´Ù
+shdudwls
+Xin chao Cam on
+PushMidDiveBot
+>>>>>>> upstream/main
 miaowang
 Deadly
 í‚¹ ì´ˆ
@@ -653,6 +1021,7 @@ linbaolinbao
 ì»¤í”¼ë¬¼ì¡°ì ˆì¥ì¸
 PushMidDiveBot
 123213321
+<<<<<<< HEAD
 ê²½ê³ í–ˆì„ í…ë°
 ë³´ê³ ì‹¶ë‹¤ë³´ê³ ì‹¶ë‹¤
 Donnie
@@ -660,4 +1029,13 @@ Hegforelly
 ë‚´ê°€ì™œì£½ì–´ì•¼ë¼
 facebookì¼€ì´í¬
 Shadow Hope 
+=======
+°æ°íÇßÀ» ÅÙµ¥
+º¸°í½Í´Ùº¸°í½Í´Ù
+Hegforelly
+Donnie
+Shadow Hope 
+facebookÄÉÀÌÅ©
+³»°¡¿ÖÁ×¾î¾ßµÅ
+>>>>>>> upstream/main
 False cry boy

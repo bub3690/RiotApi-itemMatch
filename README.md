@@ -45,3 +45,24 @@ https://www.notion.so/Opponents-lol-b16f8bc8ba6446e8913c699f71e36046
 ### 9. credit
 
 ### 10. 업데이트 정보 (Change Log)
+
+### 11. git 사용법
+```
+포크한 깃허브 저장소를 원본 저장소와 동기화 하기
+
+// 현재 설정된 리모트 저장소 조회
+$ git remote -v
+
+// 리모트 저장소 추가
+git remote add upstream https://github.com/ax5ui/ax5ui-kernel
+
+//리모트 저장소 패치하기
+git fetch upstream
+	
+// 리모트 저장소 merge
+$ git merge upstream/master
+
+git push origin master
+
+
+```
