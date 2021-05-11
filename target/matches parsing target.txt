@@ -1,0 +1,17 @@
+"teams":[
+  "teamId": TARGET
+  "win": TARGET
+]
+"participants":[
+  "teamId" : TARGET
+  "championId" : TARGET
+  "spell1Id" : TARGET
+  "spell2Id" : TARGET
+  "stats":[
+    perkN : TARGET
+  ]
+  ,"timeline":[
+    "lane": TARGET
+  ]
+]
+
