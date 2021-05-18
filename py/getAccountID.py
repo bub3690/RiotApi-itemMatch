@@ -3,7 +3,7 @@ import sys
 import os
 import time
 print(sys.path[0])
-
+apikey1="RGAPI-1e589003-f5ad-4e73-a252-85bbe3ba8871"
 #네이밍 다시 할거임
 #rate limit exceeded : 사용자별 일일 api 사용 횟수가 정해져 있음.
 #해결법 : 우선은 sleep으로 해야 할 듯
