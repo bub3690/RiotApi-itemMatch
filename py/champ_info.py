@@ -2,7 +2,7 @@ import cassiopeia as cass
 import requests
 import pandas
 import numpy
-url='https://ddragon.leagueoflegends.com/cdn/11.10.1/data/ko_KR/championFull.json'
+url='https://ddragon.leagueoflegends.com/cdn/11.13.1/data/ko_KR/championFull.json'
 champions_data=requests.get(url).json()
 
 class Champion():
@@ -19,10 +19,28 @@ class ChampionInfo():
 
     def __init__(self):
         self.champion=[]
-        
     
     def insert_champion(self, _champion):
         self.champion.append(_champion)
+
+    def print_info(self):
+        for i in self.champion:
+            print(i.champNameEng)
+            print(i.champNameKor)
+            print(i.id)
+            print(i.skill_info)
+    
+    def get_info(self):
+        return self.champion
+
+
+    def print_champinfo(self, chname):
+        for i in self.champion:
+            if i.champNameKor==chname:
+                print(i.champNameEng)
+                print(i.champNameKor)
+                print(i.id)
+                print(i.skill_info)
 
 championInfo = ChampionInfo()
 
@@ -50,6 +68,10 @@ for i in champions_data["data"]:
     champion1=Champion(iterable["id"], iterable["name"], iterable["key"], skills)
     championInfo.insert_champion(champion1)
 print()
+print(championInfo.print_champinfo('아트록스'))
+# championInfo.print_champinfo('제이스')
+
+
 # print(championInfo.champion[0].skill_info[0]["description"])
 
 # cass.set_riot_api_key("RGAPI-61907ad8-2ccc-4750-97f9-0565eea7ffd5")  # This overrides the value set in your configuration/settings.
