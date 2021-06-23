@@ -3,7 +3,7 @@ import requests
 import pandas
 import numpy
 
-url='https://ddragon.leagueoflegends.com/cdn/11.10.1/data/ko_KR/runesReforged.json'
+url='https://ddragon.leagueoflegends.com/cdn/11.13.1/data/ko_KR/runesReforged.json'
 rune_data=requests.get(url).json()
 
 class RuneInfo():
@@ -33,7 +33,5 @@ for i in rune_data:
             A_rune["description"]=n["shortDesc"]
             runeInfo.insert_runes(A_rune)  
             print(A_rune)
-        
-print(runeInfo.get_runes())
     
 
