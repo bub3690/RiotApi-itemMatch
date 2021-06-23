@@ -1,4 +1,4 @@
-match_id,participantId,skillSlot,timestamp
+match_id,participantId,itemId,time_stamp
 5173018625,1,1,47142
 5173018625,4,1,52063
 5173018625,7,3,61316
