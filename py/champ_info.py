@@ -2,7 +2,8 @@ import cassiopeia as cass
 import requests
 import pandas
 import numpy
-url='https://ddragon.leagueoflegends.com/cdn/11.13.1/data/ko_KR/championFull.json'
+import pymysql
+url='https://ddragon.leagueoflegends.com/cdn/11.15.1/data/ko_KR/championFull.json'
 champions_data=requests.get(url).json()
 
 class Champion():
@@ -48,42 +49,52 @@ for i in champions_data["data"]:
     iterable=champions_data["data"][i]
     # print(iterable["id"],iterable["key"],end=" ")
     skills=[]
-    passive_skill={}
-    passive_skill["id"]=iterable["id"]+'_'+'passive'
-    passive_skill["name"]=iterable["passive"]["name"]
-    passive_skill["description"]=iterable["passive"]["description"]
+    #passive_skill={}
+    #passive_skill["id"]=iterable["id"]+'_'+'passive'
+    #passive_skill["name"]=iterable["passive"]["name"]
+    #passive_skill["description"]=iterable["passive"]["description"]
     #https://developer.riotgames.com/docs/lol#data-dragon_other 태그내용 추출 가능
-    skills.append(passive_skill)
+    #skills.append(passive_skill)
     for iterable2 in iterable["spells"]:
         # print(iterable2["id"], iterable2["name"], iterable2["description"],end=" ")
         skill={}
-
         skill["id"]=iterable2["id"]
         skill["name"]=iterable2["name"]
         skill["description"]=iterable2["description"]
         skills.append(skill)
-    
-
-
     champion1=Champion(iterable["id"], iterable["name"], iterable["key"], skills)
     championInfo.insert_champion(champion1)
 print()
-print(championInfo.print_champinfo('아트록스'))
-# championInfo.print_champinfo('제이스')
 
-
-# print(championInfo.champion[0].skill_info[0]["description"])
-
-# cass.set_riot_api_key("RGAPI-61907ad8-2ccc-4750-97f9-0565eea7ffd5")  # This overrides the value set in your configuration/settings.
-# cass.set_default_region("KR")
-
-# champions=cass.get_champions()
-# print(cass.core.staticdata.champion.Champion)
-
-# with open(os.path.join(sys.path[0],'./resource/championInfo.txt'),'w',encoding='utf8') as f:
-#     f.writelines(str(champions))
-
-# challenger_league = cass.get_challenger_league(queue=cass.Queue.ranked_solo_fives)
-# for i in challenger_league:
-#     for m in i:
-#         print(m)
+# 데이터베이스에 챔피언 정보 삽입
+if __name__ == '__main__':
+    myDB=pymysql.connect(
+        user='root',
+        password='rlathfals12#',
+        host='127.0.0.1',
+        db='project',
+        charset='utf8'
+    )
+    cursor=myDB.cursor(pymysql.cursors.DictCursor)
+    for i in championInfo.get_info(): #챔피언 정보 테이블 삽입
+        # sql = "insert into champ_info values(%s, %s, %s);"
+        # data=(i.id, i.champNameKor, i.champNameEng)
+        # cursor.execute(sql, data)
+        count=4
+        for m in i.skill_info: #각 챔피언별 스킬 정보 테이블 삽입
+            skill_id=''
+            #count별로 스킬id 이름 재구성(Q,W,E,R순)
+            if count==4:
+                skill_id=i.champNameEng+'Q'
+            elif count==3:
+                skill_id=i.champNameEng+'W'
+            elif count==2:
+                skill_id=i.champNameEng+'E'
+            elif count==1:
+                skill_id=i.champNameEng+'R'
+            count=count-1
+            sql = "insert into skill_info values(%s, %s, %s, %s);"
+            data=(i.id, skill_id, m["name"], m["description"])
+            cursor.execute(sql, data)
+    myDB.commit()
+    
