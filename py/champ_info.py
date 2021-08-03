@@ -66,8 +66,9 @@ for i in champions_data["data"]:
     championInfo.insert_champion(champion1)
 print()
 
-# 데이터베이스에 챔피언 정보 삽입
+# 데이터베이스에 챔피언 정보 삽입, pymysql 패키지 사용
 if __name__ == '__main__':
+    #로컬 데이터베이스 추가, 변경 사항
     myDB=pymysql.connect(
         user='root',
         password='rlathfals12#',
@@ -75,11 +76,12 @@ if __name__ == '__main__':
         db='project',
         charset='utf8'
     )
+    ################################
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
     for i in championInfo.get_info(): #챔피언 정보 테이블 삽입
-        # sql = "insert into champ_info values(%s, %s, %s);"
-        # data=(i.id, i.champNameKor, i.champNameEng)
-        # cursor.execute(sql, data)
+        sql = "insert into champ_info values(%s, %s, %s);"
+        data=(i.id, i.champNameKor, i.champNameEng)
+        cursor.execute(sql, data)
         count=4
         for m in i.skill_info: #각 챔피언별 스킬 정보 테이블 삽입
             skill_id=''
@@ -96,5 +98,5 @@ if __name__ == '__main__':
             sql = "insert into skill_info values(%s, %s, %s, %s);"
             data=(i.id, skill_id, m["name"], m["description"])
             cursor.execute(sql, data)
-    myDB.commit()
+    myDB.commit()   
     
