@@ -1,7 +1,4 @@
-"teams":[
-  "teamId": TARGET
-  "win": TARGET
-]
+
 "participants":[
   "teamId" : TARGET
   "championId" : TARGET
@@ -13,6 +10,7 @@
   ,"timeline":[
     "lane": TARGET
   ]
+,"win"
 ]
 
 "info":	{
