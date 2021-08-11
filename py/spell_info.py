@@ -3,8 +3,9 @@ import requests
 import pandas
 import numpy
 import pymysql
-
-url='https://ddragon.leagueoflegends.com/cdn/11.15.1/data/ko_KR/summoner.json'
+version='11.16.1'
+url='https://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/summoner.json'
+img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/spell/'
 spell_data=requests.get(url).json()
 
 class SpellInfo():
@@ -26,6 +27,7 @@ for i in spell_data["data"]:
     A_spell["kor_name"]=iterable[i]["name"]
     A_spell["eng_name"]=iterable[i]["id"]
     A_spell["description"]=iterable[i]["description"]
+    A_spell["spell_url"]=img_url+iterable[i]["image"]["full"]
     spellInfo.insert_spells(A_spell)
 
     
@@ -41,7 +43,7 @@ if __name__=="__main__":
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
 
     for i in spellInfo.get_spells(): 
-        sql = "insert into spell_info values(%s, %s, %s, %s);"
-        data=(i["id"], i["kor_name"], i["eng_name"], i["description"])
+        sql = "insert into spell_info values(%s, %s, %s, %s,%s);"
+        data=(i["id"], i["kor_name"], i["eng_name"], i["description"],i["spell_url"])
         cursor.execute(sql, data)
     myDB.commit()

@@ -2,7 +2,9 @@ import requests
 import pandas
 import numpy
 import pymysql
-url='http://ddragon.leagueoflegends.com/cdn/11.15.1/data/ko_KR/item.json'
+version='11.16.1'
+url='http://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/item.json'
+img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/item/'
 item_data=requests.get(url).json()["data"]
 
 class ItemInfo():
@@ -21,6 +23,7 @@ for i in item_data:
     A_item={}
     A_item["id"]=i #id
     A_item["kor_name"]=item_data[i]["name"]#kor
+    A_item["item_url"]=img_url+A_item["id"]+'.png'
     A_name=A_item["kor_name"]
     
     value=item_data[i].get("depth")
@@ -57,7 +60,7 @@ if __name__=="__main__":
     )
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
     for i in itemInfo.get_items(): 
-        sql = "insert into item_info values(%s, %s, %s, %s);"
-        data=(i["id"], i["kor_name"], i["category"],i["description"])
+        sql = "insert into item_info values(%s, %s, %s, %s,%s);"
+        data=(i["id"], i["kor_name"], i["category"],i["description"],i["item_url"])
         cursor.execute(sql, data)
     myDB.commit()

@@ -3,8 +3,9 @@ import requests
 import pandas
 import numpy
 import pymysql
-
-url='https://ddragon.leagueoflegends.com/cdn/11.15.1/data/ko_KR/runesReforged.json'
+version='11.16.1'
+url='https://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/runesReforged.json'
+img_url='https://ddragon.leagueoflegends.com/cdn/img/'
 rune_data=requests.get(url).json()
 
 class RuneInfo():
@@ -28,10 +29,12 @@ for i in rune_data:
         for n in rune:
             A_rune = {}
             A_rune["category"]=rune_category
+            A_rune["eng_category"]=i["key"]
             A_rune["id"]=n["id"]
             A_rune["runeEngName"]=n["key"]
             A_rune["runeKorName"]=n["name"]
             A_rune["description"]=n["shortDesc"]
+            A_rune["rune_url"]=img_url+n["icon"]
             runeInfo.insert_runes(A_rune)  
             print(A_rune)
     
@@ -47,7 +50,7 @@ if __name__=="__main__":
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
 
     for i in runeInfo.get_runes(): 
-        sql = "insert into rune_info values(%s, %s, %s, %s, %s);"
-        data=(i["id"], i["category"], i["runeKorName"], i["runeEngName"],i["description"])
+        sql = "insert into rune_info values(%s,%s, %s, %s, %s, %s, %s);"
+        data=(i["id"], i["category"],i["eng_category"], i["runeKorName"], i["runeEngName"],i["description"], i["rune_url"])
         cursor.execute(sql, data)
     myDB.commit()
