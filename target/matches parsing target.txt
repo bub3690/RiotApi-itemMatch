@@ -15,3 +15,15 @@
   ]
 ]
 
+"info":	{
+"participants":[
+	
+	"teamPosition"
+	"win"
+]
+}
+
+
+
+teamposition 캔다. lane 대신.
+

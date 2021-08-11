@@ -8,3 +8,4 @@
       else if(type=="SKILL_LEVEL_UP"):
       	"skillSlot": Target in Pool(1:q, 2:w, 3:e, 4:r)
     ]
+
