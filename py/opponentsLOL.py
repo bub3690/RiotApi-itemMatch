@@ -117,23 +117,29 @@ class  RiotApi:
 #timeline -> url_v5+matchid+'/timeline'+query+api_key    
     
     def get_timeline_byMatchid(self,match_id):
-        return requests.get(RiotApi.url+
-                            RiotApi.url_match_v4_timeline_matchid+
+        #08.11 match v5 수정
+        print(RiotApi.url_v5+
                             match_id+
+                            '/timeline'+
+                            RiotApi.query+
+                            self._apikey)
+        return requests.get(RiotApi.url_v5+
+                            match_id+
+                            '/timeline'+
                             RiotApi.query+
                             self._apikey).json()
 
 if __name__ == '__main__':
     #단위테스트
-    test = RiotApi(apikey="RGAPI-d30d6558-4b0a-4e37-9bdf-1edfe39ff539")
+    test = RiotApi(apikey="RGAPI-90ac4bcf-883d-406a-b5da-0bc3e8bc9418")
     #print(test.get_league(1))
-    user_puuId=test.get_summoner('Hide on bush')
+    #user_puuId=test.get_summoner('Hide on bush')
     #print(test.get_summoner_raw('Hide on bush'))
     #user_puuId='uqy66cXvaNu5cUS7nGRvKXRFyX9kSu3vptCijcNBO9hKVUXNaagQ5PYCYSuvItgBAaPXs_svQZrtkA'
-    game_ids=test.get_gameid_byPuuid(user_puuId)
+    #game_ids=test.get_gameid_byPuuid(user_puuId)
     print(game_ids[0])
-    match_info = test.get_match_byMatchid('KR_5384630363')#match_v5 test
-    #time_line=test.get_timeline_byMatchid('4052319398')
+    #match_info = test.get_match_byMatchid('KR_5381618137')#match_v5 test
+    time_line=test.get_timeline_byMatchid('KR_5381618137')
     
     #test_gameId=games_ids[0] # 게임아이디 하나 받아서, timeline 테스트에 사용
     #test_timeline=test.get_timeline_byMatchid(str(test_gameId))
