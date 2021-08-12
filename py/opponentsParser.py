@@ -3,6 +3,7 @@ import time
 import os
 import sys
 import pandas as pd
+from pandas import DataFrame
 
 class opponentsParser(RiotApi):
     """
@@ -147,7 +148,6 @@ class opponentsParser(RiotApi):
         try:
             match_data =self.get_match_byMatchid('KR_5183897731')# 부모클래스인 RiotApi class안에 get_gameid_byAccountid가 있음.
             
-            print(match_data)
             match_id_var=match_data['info']['gameId']# 처음 읽을때 match_id를 담아둠.
             print("game id : ",match_id_var)
             ## 데이터 파싱 부분
@@ -184,17 +184,16 @@ class opponentsParser(RiotApi):
                 #stat에서 perk 더 넣어야함.
                 stats=user["perks"]["statPerks"]
                 statperk0.append(stats["defense"])
-                statperk0.append(stats["flex"])
-                statperk0.append(stats["offense"])
-                #perk 이라는 
+                statperk1.append(stats["flex"])
+                statperk2.append(stats["offense"])
+                #주룬
                 primary_perks=user["perks"]["styles"][0]["selections"]
-                count=0 # perk0~5까지 넣기 위한 count
                 
                 perk0.append(primary_perks[0]["perk"])
                 perk1.append(primary_perks[1]["perk"])
                 perk2.append(primary_perks[2]["perk"])
                 perk3.append(primary_perks[3]["perk"])
-
+                #보조룬
                 sub_perks=user["perks"]["styles"][1]["selections"]
                 perk4.append(sub_perks[0]["perk"])
                 perk5.append(sub_perks[1]["perk"])
@@ -259,8 +258,8 @@ class opponentsParser(RiotApi):
             'lane'
         ]
         # 3.csv 파일로 출력한다.
-        
-        DATA.to_csv("./resource/match_data.csv",index=False)
+        print('통과')
+        DATA.to_csv(os.path.join(sys.path[0],'./resource/match_data.csv'),index=False)
         
         print("파일 출력.")
     
@@ -352,14 +351,15 @@ class opponentsParser(RiotApi):
             ],axis=1)
             SKILL_DATA.columns=['match_id','participantId','skillSlot','time_stamp']
             #엑셀출력
-            SKILL_DATA.to_csv("./resource/timeline_skill_data.csv",index=False)
-            ITEM_DATA.to_csv("./resource/timeline_item_data.csv",index=False)
+            SKILL_DATA.to_csv(os.path.join(sys.path[0],"./resource/timeline_skill_data.csv"),index=False)
+            ITEM_DATA.to_csv(os.path.join(sys.path[0],"./resource/timeline_item_data.csv"),index=False)
             print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡ파일 출력.ㅡㅡㅡㅡㅡㅡㅡㅡ")
     
 #단위 테스트
 if __name__ == '__main__':
     test = opponentsParser('RGAPI-8a956514-6bb5-408d-9404-29f4e00088e4')
-    test.get_match_inform()
+    # test.get_match_inform()
+    test.get_timeline_inform()
     #test.getSummonerName()
     #time.sleep(120)
     #test.getAccountID()
