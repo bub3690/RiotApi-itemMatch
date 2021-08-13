@@ -1,8 +1,17 @@
 import cassiopeia as cass
 import requests
-import pandas
 import numpy
 import pymysql
+import pandas as pd
+import numpy
+import pymysql
+import os,sys
+from sqlalchemy import create_engine
+
+pymysql.install_as_MySQLdb()
+
+root=os.path.dirname(os.path.realpath(__file__))
+
 version='11.16.1'
 url='https://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/summoner.json'
 img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/spell/'
@@ -35,10 +44,11 @@ for i in spell_data["data"]:
 if __name__=="__main__":
     myDB=pymysql.connect(
         user='root',
-        password='rlathfals12#',
-        host='127.0.0.1',
-        db='project',
-        charset='utf8'
+        password='1q2w3e4r',
+        host='54.180.119.182',
+        db='test',
+        charset='utf8',
+        port=50912
     )
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
 
