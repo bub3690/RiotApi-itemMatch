@@ -1,9 +1,7 @@
 import requests
-import numpy
 import pandas as pd
-import numpy
 import pymysql
-import os,sys
+import os
 from sqlalchemy import create_engine
 
 pymysql.install_as_MySQLdb()
