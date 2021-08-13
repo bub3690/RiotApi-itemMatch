@@ -1,12 +1,21 @@
 import cassiopeia as cass
 import requests
-import pandas
+import pandas as pd
 import numpy
 import pymysql
+import os,sys
+from sqlalchemy import create_engine
+
+pymysql.install_as_MySQLdb()
+
+root=os.path.dirname(os.path.realpath(__file__))
+
+
 version='11.16.1'
 url='https://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/championFull.json'
 champ_img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/champion/'
 skill_img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/spell/'
+passive_skill_img_url='http://ddragon.leagueoflegends.com/cdn/'+version+'/img/passive/'
 champions_data=requests.get(url).json()
 
 class Champion():
@@ -79,7 +88,7 @@ for i in champions_data["data"]:
     skill["id"]=i+'Passive'
     skill["name"]=iterable["passive"]["name"]
     skill["description"]=iterable["passive"]["description"]
-    skill["skill_url"]=skill_img_url+i+'.png'
+    skill["skill_url"]=passive_skill_img_url+iterable["passive"]["image"]["full"]
     skills.append(skill)
     champ_url=champ_img_url+iterable["id"]+'.png'
     champion1=Champion(iterable["id"], iterable["name"], iterable["key"], skills, champ_url)
@@ -89,23 +98,27 @@ print()
 # 데이터베이스에 챔피언 정보 삽입, pymysql 패키지 사용
 if __name__ == '__main__':
     #로컬 데이터베이스 추가, 변경 사항
+    id_pw=pd.read_csv(root+'/resource/password.csv')
+    mysql_id=id_pw["id"][0]
+    mysql_pw=id_pw["pw"][0]
     myDB=pymysql.connect(
-        user='root',
-        password='rlathfals12#',
-        host='127.0.0.1',
-        db='project',
-        charset='utf8'
+        user=mysql_id,
+        password=mysql_pw,
+        host='54.180.119.182',
+        db='test',
+        charset='utf8',
+        port=50912
     )
+    print('로그인 완료')
     ################################
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
     for i in championInfo.get_info(): #챔피언 정보 테이블 삽입
-        sql = "insert into champ_info values(%s, %s, %s, %s);"
-        # 챔피언 아이콘 이미지 url 삽입 추가
-        data=(i.id, i.champNameKor, i.champNameEng, champ_img_url+i.champ_url)
-        cursor.execute(sql, data)
+        # sql = "insert into champ_info values(%s, %s, %s, %s);"
+        # # 챔피언 아이콘 이미지 url 삽입 추가
+        # data=(i.id, i.champNameKor, i.champNameEng, i.champ_url)
+        # cursor.execute(sql, data)
         count=5
         for m in i.skill_info: #각 챔피언별 스킬 정보 테이블 삽입
-            
             count=count-1
             sql = "insert into skill_info values(%s, %s, %s, %s, %s);"
             data=(i.id, m["id"], m["name"], m["description"], m["skill_url"])

@@ -1,7 +1,13 @@
 import requests
-import pandas
+import numpy
+import pandas as pd
 import numpy
 import pymysql
+import os,sys
+from sqlalchemy import create_engine
+
+pymysql.install_as_MySQLdb()
+root=os.path.dirname(os.path.realpath(__file__))
 version='11.16.1'
 url='http://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/item.json'
 img_url='https://ddragon.leagueoflegends.com/cdn/'+version+'/img/item/'
@@ -50,13 +56,17 @@ for i in item_data:
     A_item["description"]=item_data[i]["description"]
     itemInfo.insert_items(A_item)
 
-if __name__=="__main__":
+if __name__=="__main__":    
+    id_pw=pd.read_csv(root+'/resource/password.csv')
+    mysql_id=id_pw["id"][0]
+    mysql_pw=id_pw["pw"][0]
     myDB=pymysql.connect(
-        user='root',
-        password='rlathfals12#',
-        host='127.0.0.1',
-        db='project',
-        charset='utf8'
+        user=mysql_id,
+        password=mysql_pw,
+        host='54.180.119.182',
+        db='test',
+        charset='utf8',
+        port=50912
     )
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
     for i in itemInfo.get_items(): 

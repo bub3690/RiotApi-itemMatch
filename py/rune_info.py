@@ -1,8 +1,15 @@
 import cassiopeia as cass
 import requests
-import pandas
+import numpy
+import pandas as pd
 import numpy
 import pymysql
+import os,sys
+from sqlalchemy import create_engine
+
+pymysql.install_as_MySQLdb()
+
+root=os.path.dirname(os.path.realpath(__file__))
 version='11.16.1'
 url='https://ddragon.leagueoflegends.com/cdn/'+version+'/data/ko_KR/runesReforged.json'
 img_url='https://ddragon.leagueoflegends.com/cdn/img/'
@@ -40,17 +47,21 @@ for i in rune_data:
     
 #로컬 데이터베이스에 룬정보 삽입
 if __name__=="__main__":
+    id_pw=pd.read_csv(root+'/resource/password.csv')
+    mysql_id=id_pw["id"][0]
+    mysql_pw=id_pw["pw"][0]
     myDB=pymysql.connect(
-        user='root',
-        password='rlathfals12#',
-        host='127.0.0.1',
-        db='project',
-        charset='utf8'
+        user=mysql_id,
+        password=mysql_pw,
+        host='54.180.119.182',
+        db='test',
+        charset='utf8',
+        port=50912
     )
     cursor=myDB.cursor(pymysql.cursors.DictCursor)
 
     for i in runeInfo.get_runes(): 
         sql = "insert into rune_info values(%s,%s, %s, %s, %s, %s, %s);"
-        data=(i["id"], i["category"],i["eng_category"], i["runeKorName"], i["runeEngName"],i["description"], i["rune_url"])
+        data=(i["id"], i["category"], i["runeKorName"],i["eng_category"], i["runeEngName"],i["description"], i["rune_url"])
         cursor.execute(sql, data)
     myDB.commit()
