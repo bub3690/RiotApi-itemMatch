@@ -1,6 +1,4 @@
 import requests
-import pandas
-import numpy
 
 class  RiotApi:
     """
@@ -139,8 +137,8 @@ if __name__ == '__main__':
     #game_ids=test.get_gameid_byPuuid(user_puuId)
     # print(game_ids[0])
     #match_info = test.get_match_byMatchid('KR_5381618137')#match_v5 test
-    # time_line=test.get_timeline_byMatchid('KR_5381618137')
-    test.get_timeline_byMatchid('KR_5183897731')
+    time_line=test.get_timeline_byMatchid('KR_5381618137')
+    
     #test_gameId=games_ids[0] # 게임아이디 하나 받아서, timeline 테스트에 사용
     #test_timeline=test.get_timeline_byMatchid(str(test_gameId))
     #RhV9CBcTzyNArJhyiFMXYT-nOt8j4K8_cMjarSPdDscs0VP0_XvM0CFEi2NIgLNWAG7xLGL1G-ndkQ :puuid
